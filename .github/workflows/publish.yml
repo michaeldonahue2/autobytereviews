@@ -5,6 +5,8 @@ on:
     # Runs every day at 08:00 UTC
     - cron: '0 8 * * *'
   workflow_dispatch:
+permissions:
+  contents: write
 
 jobs:
   build:
